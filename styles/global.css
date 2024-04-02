@@ -1,0 +1,30 @@
+/* Add a wrapper element for overall gallery styling */
+.gallery-wrapper {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust for your desired max width */
+    font-family: sans-serif; /* Basic font for text elements */
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  
+  .image-card {
+    /* Center thumbnails within the card */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    cursor: pointer; /* Add hover effect for potential future interactions */
+  }
+  
+  .image-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
